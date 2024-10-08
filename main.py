@@ -15,7 +15,7 @@ def main():
     mun = 1
 
     while True:
-        p = input(f"请输入第{mun}条问答对(格式: [问题,答案] 输入空字符结束): ")
+        p = input(f"请输入第{mun}条问答对(格式: [\"问题\",\"答案\"] 输入空字符结束): ")
         if p == "":
             break
         try:
